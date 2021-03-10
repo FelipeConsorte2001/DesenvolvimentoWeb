@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: silver;
+}
+header{
+    background-color: #2e2d2d;
+    height: 100px;
+}
+header article{
+    height: 99px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    
+}
+header img{
+    height: 80px;
+    width: 60px;
+    margin: 10px;
+}
+.projeto{
+    color:yellow;
+    margin-top: 40px ;
+    margin-left: 10px;
+}
+nav{
+    padding-top: 70px;
+    width: 700px;
+    text-align: right; 
+}
+header nav a {
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+header nav a:hover{
+    background-color: red;
+}
+main{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+}
+.esquerda{
+    width: 20%;
+    margin: 2%;
+    float: left;
+
+}
+.arquivos{
+    margin: 2%;
+    margin-bottom: 50px;
+}
+.arquivos h2{
+    margin-bottom: 20px;
+}
+.arquivos ul , .link ul{
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.arquivos li, .link li{
+    margin-left:20% ;
+    margin-right: 10%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+aside{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+    display: inline-block;
+}
+.ti{
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+em{
+    color: silver;
+}
+aside figure{
+    margin-top: 5PX;
+    width: 100%;
+    border: 1px solid rgb(112, 111, 111);
+}
+aside figure img{
+    width: 99%;
+    margin-top:1px;
+    margin-left: 1px;
+}
+.saiba{
+    width: 20%;
+    background-color: rgb(34, 30, 30);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.titulo{
+    margin-top: 20px;
+}
+.direita{
+    width: 20%;
+    margin: 2%;
+    float: right;
+}
+.sobre{
+    text-align: justify;
+}
+.sobre h2, .link h2, .post h2{
+    margin-bottom:20px ;
+}
+.sobre p, .post .fipost{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.post{
+    margin-top: 50px;
+}
+.post span{
+    margin-left: 10px;
+    vertical-align: top;
+}
+.ca{
+    display: flex;
+    background-color: #2e2d2d;
+    color: white;
+    text-align: justify;
+}
+.cabeçalho{
+    width: 10%;
+    margin: 2%;
+    font-size: 15px;
+    margin: auto;
+}
+.parafinal{
+    font-size: 13px;
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height: 60px;
+}

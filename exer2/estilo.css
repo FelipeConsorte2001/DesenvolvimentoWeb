@@ -1,0 +1,111 @@
+body{
+    width: 1150;
+    height: 600px;
+}
+figure{
+    width: 225px;
+    height: 200px;
+    border: 1px ridge black;
+    position: absolute;
+}
+section{
+    position: relative;
+}
+img{
+    width: 220px;
+    height: 190px;
+    margin: 5px;
+    border: 1px ridge black;
+}
+.img1{
+    transform: rotate(45deg);
+    top: 50%;
+    left: 50%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+    margin-top: 100px;
+}
+.img2{
+    transform: rotate(60deg);
+    margin: 10px;
+    top: 50%;
+    left: 40%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+    margin-top: 90px;
+}
+.img3{
+    transform: rotate(-45deg);
+    margin: 50px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 6px 6px 24px 6px;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+.img4{
+    transform: rotate(-35deg);
+    top: 50%;
+    left: 20%;
+    padding: 6px 6px 24px 6px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.img5{
+    transform: rotate(50deg);
+    margin-top: 20%;
+    left: 70%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+.img6{
+    transform: rotate(20deg);
+    margin-top: 30%;
+    left: 40%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+.img7{
+    transform: rotate(-42deg);
+    margin-top: 30%;
+    left: 10%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+.img8{
+    transform: rotate(34deg);
+    margin-top: 10%;
+    left: 10%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+.img9{
+    transform: rotate(-50deg);
+    margin-top: 20%;
+    left: 20%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+.img10{
+    transform: rotate(-26deg); 
+    margin-top: 10%;
+    left: 70%;
+    padding: 6px 6px 24px 6px;
+    position: absolute;
+}
+img:hover{
+    animation: img 3s ;
+}
+@keyframes img{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(2);
+    }
+}

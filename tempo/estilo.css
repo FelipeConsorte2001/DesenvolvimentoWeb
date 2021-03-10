@@ -1,0 +1,175 @@
+@media screen and (min-width:781px){
+body{
+    color: white;
+    background: linear-gradient(black , rgb(255, 230, 0) 60%)no-repeat rgb(255, 230, 0) ;
+    width: 98%;
+}
+header{
+    padding: 5px;
+    margin: 5px;
+}
+header h1{
+    margin-bottom: 5px;
+}
+.c2{
+    width: 70px;
+    height: 120px;
+    background: linear-gradient(rgb(231, 219, 219),rgb(38, 38, 161));
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding: 0px;
+}
+.c2 figure{
+    width: 60px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 5px;
+    text-align: center;
+}
+.c2 figure img{
+    height: 100%;
+}
+.c2 p{
+    margin-bottom: 0px;
+}
+
+.parte1 ,.parte2{
+    display: inline-block;
+}
+.parte1 img{
+    width: 200px;
+    height: 130px;
+}
+samp{
+    display: inline-block
+}
+samp p{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+samp h3{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.parte1{
+    border-right: 1px solid black;
+    margin-right: 10px;
+    padding-right:10px ;
+}
+.parte2{
+    margin: 20px;
+    height: 150px;
+    width: 300px;
+    vertical-align: top;
+}
+.tempo{
+    margin: 10px;
+    font-size: 25px;
+
+}
+.li{
+    
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 30px;
+    margin: auto;
+}
+.li2{
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 30px;
+    margin: auto;
+    
+}
+
+}
+@media screen and (max-width:780px){
+    body {
+        background: linear-gradient( rgb(65, 105, 225) 35%, rgba(16,26,131,1) 100%)no-repeat rgba(16,26,131,1) ;;
+     }
+     samp{
+    font-size: 25px;
+        color:white
+     }
+    .parte1 h1{
+        font-size: 30px;
+    }
+    .parte1{
+        border-bottom: 1px solid white;
+        margin: 0px;
+        width: 100%;
+    }
+    .parte1 img{
+        width: 150px;   
+    }
+    .parte2{
+        margin: 20px;
+        height: 150px;
+        width: 300px;
+        vertical-align: top;
+        
+    }
+    .tempo{
+        margin: 20px;
+        color: white;
+        font-size: 25px;
+    }
+    .parte1,.parte2{
+        display: inline;
+
+    }
+    .parte1,samp{
+        display: inline-block;
+    }
+    .linha{
+        width: 70px;
+        height: 130px;
+        background: linear-gradient(rgb(20, 20, 20) 1%, rgb(255, 230, 0) 60%);
+        border-radius: 10px;
+        padding: 0px;
+        margin: auto;
+        display: inline-block;
+        
+        
+    }
+    .img{
+        width: 60px;
+        height: 50px;
+        margin-top: 0px;
+        margin: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+    }
+    .li{
+        margin-top:10px;
+        margin: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        color: white;
+    }
+    .li2{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+        text-align: auto;
+    }
+    .container-fluid{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    
+    .ocutar{
+        display: none;
+    }
+    samp p {
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    h3{
+        margin-top: 0px;
+    }
+}

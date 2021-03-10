@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+    margin-top: 0px;
+}
+.titulo{
+    text-align: center;
+}
+header{
+    background-color: rgb(28,45,100);
+    color: white;
+    padding-top: 15px;
+}
+section{
+    text-align: center;
+}
+.a1 figure{
+    width: 150px;
+    margin: auto;
+    border-style: ridge;
+}
+.a1 figure img{
+    width: 90%;
+    border-style: ridge ;
+    margin-top: 10px;
+}
+.a2 figure{
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    border-style: ridge ;
+}
+.a2 figure img{
+    width: 90%;
+    height: 90px;
+    border-style: ridge ;
+    margin-top: 10px;
+}
+.a3 figure{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-style: ridge;
+}
+.a3 figure img{
+    width: 90%;
+    height:90px ;
+    margin-top: 10px;
+    border-style: ridge;
+}
+.a4 figure{
+    width: 150px;
+    margin: auto;
+    border-style: ridge;
+    margin-top: 10px;
+}
+.a4 figure img{
+    height: 90px;
+    width: 90%;
+    margin-top: 10px;
+    border-style: ridge;
+}
+.a5 figure{
+    width: 150px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: ridge;
+}
+.a5 figure img{
+    width: 90%;
+    height: 90px;
+    border-style: ridge;
+    margin-top: 10px;
+}
