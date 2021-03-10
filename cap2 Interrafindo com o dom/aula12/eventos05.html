@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head> 
+<body> 
+    <div id="app">
+        <p> {{contador}}</p>
+        <button v-on:click="soma(5)">Soma 1</button>
+        <p v-on:mousemove="passar">Mouse {{ x }} e {{ y }}
+            <span v-on:mousemove.stop="">Para aqui</span>
+
+        </p> 
+        <a v-on:click.prevent="" href="http://www.google.com/">google</a>
+        <input type="text" v-on:keyup.e="exibir">
+    </div> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caixa{
+            display: flex;
+            justify-content: space-around;
+        }
+        .demo{
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+        }
+        .c1{background-color: red;}
+        .c2{background-color: blue;}
+        .c3{background-color: green;}
+    </style>
+</head>
+<body>
+    <section id="app">
+        <section class="caixa">
+            <article  class="demo"></article>
+            <article class="demo" :style="meu"></article>
+            <article class="demo" ></article>
+        </section>
+        <input type="text "v-model="cor" >
+        <input type="text "v-model="largura" >
+    </section>
+    
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        new  Vue({
+            el: '#app',
+            data:{
+                cor: "red",
+                largura: 20
+            },
+            computed:{
+              meu(){
+                  return{
+                        backgroundColor: this.cor,
+                        width: this.largura+"px"
+                  }
+              }
+                
+            }
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <div id="app">
+        <button v-on:click="aumentar" >aumentar</button>
+        <button v-on:click="contador2++" >aumentar2</button>
+        <button v-on:click="diminuir" >diminuir</button>
+        <p>{{ contador }}|{{ contador2 * 2 }}</p>
+        <p>{{ resultado }}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <script>
+        new Vue({
+            el:"#app",
+            data:{
+                contador:0,
+                contador2:0,
+            },
+            computed:{
+                resultado(){
+                    return this.contador >= 5 ? 'maior ou igua a 5' :'Menor que 5'
+                }
+            },
+            methods:{
+                aumentar(){
+                    this.contador++
+                },
+                aumentar2(){
+                    this.contador++
+                },
+                diminuir(){
+                    this.contador--
+                },
+                
+                
+            }
+        })
+    </script>
+</body>
+</html>

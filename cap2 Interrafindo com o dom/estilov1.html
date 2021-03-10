@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #app{
+            display: flex;
+            justify-content: space-around;
+        }
+        .demo{
+            width: 100px;
+            height: 100px;
+            background-color: gray;
+        }
+        .c1{background-color: red;}
+        .c2{background-color: blue;}
+        .c3{background-color: green;}
+    </style>
+</head>
+<body>
+    <section id="app">
+        <article  class="demo" :class="{c1: aplicarc1}"
+        @click="aplicarc1 = !aplicarc1"></article>
+        <article class="demo" :class="{c2:aplicarc2}"
+        @click="aplicarc2 = !aplicarc2"></article>
+        <article class="demo"></article>
+    </section>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        new  Vue({
+            el: '#app',
+            data:{
+                aplicarc1:false,
+                aplicarc2:false
+            }
+        })
+    </script>
+</body>
+</html>
