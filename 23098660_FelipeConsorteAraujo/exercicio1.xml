@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<revista >
+    <edicao>
+        <codigo>01</codigo>
+        <editora>Veja</editora>
+        <edicao>Comercial</edicao>
+        <volume>03</volume>
+        <preco>R$10,09</preco>
+        <titulo>Futebol</titulo>
+   </edicao>
+   <edicao>
+        <codigo>02</codigo>
+        <editora>Hoje</editora>
+        <edicao>Comercial</edicao>
+        <volume>02</volume>
+        <preco>R$23,90</preco>
+        <titulo>Novela</titulo>
+   </edicao> 
+    <edicao>
+        <codigo>03</codigo>
+        <editora>Veja</editora>
+        <edicao>Especial</edicao>
+        <volume>04</volume>
+        <preco>R$11,54</preco>
+        <titulo>Musica</titulo>
+   </edicao>
+   <edicao>
+        <codigo>04</codigo>
+        <editora>Hoje</editora>
+        <edicao>Entreterimento</edicao>
+        <volume>02</volume>
+        <preco>R$15,90</preco>
+        <titulo>Esportes</titulo>
+    </edicao>
+    <edicao>
+        <codigo>05</codigo>
+        <editora>News</editora>
+        <edicao>Internacional</edicao>
+        <volume>06</volume>
+        <preco>R$40,09</preco>
+        <titulo>Resumo do mundo</titulo>
+     </edicao>
+     <edicao>
+        <codigo>06</codigo>
+        <editora>Bom Dia</editora>
+        <edicao>Reporter</edicao>
+        <volume>03</volume>
+        <preco>R$11,80</preco>
+        <titulo>Ultimas noticias</titulo>
+   </edicao>
+</revista>

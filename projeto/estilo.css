@@ -1,0 +1,59 @@
+#pessoas{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.masculino{
+    width: 200px;
+    background-color: rgb(15, 214, 15);
+    text-decoration: dashed;
+    text-align: center;
+    height: auto;
+    border-radius: 25px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.masculino img{
+    width: 100px;
+    
+    margin: auto;
+}
+.masculino hr{
+    border-color:black ;
+}
+
+.feminino{
+    width: 200px;
+    background-color: orange;
+    text-decoration: dashed;
+    text-align: center;
+    height: auto;
+    border-radius: 25px;
+    border: 1px solid red;
+    margin: 10px;
+
+}
+.feminino hr{
+    border-color:black ;
+}
+
+.feminino img{
+    width: 100px;
+    margin: auto;
+    
+}
+.exibir{
+    width: 200px;
+    background-color: rgb(209, 209, 209);
+    text-decoration: dashed;
+    text-align: center;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+}
+.exibir img{
+    width: 100px;
+    margin: auto;
+}

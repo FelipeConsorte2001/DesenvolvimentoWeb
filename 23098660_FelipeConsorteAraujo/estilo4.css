@@ -1,0 +1,118 @@
+
+#pessoa{
+    
+    display: flex;
+    margin: 20px;
+    
+}
+.leve{
+    width: 200px;
+    background-color: #d1e7f6;
+    text-align: center;
+
+}
+.leve img{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+
+}
+.leve h1{
+    text-decoration: dashed;
+    text-align: center;
+
+}
+.leve .div{
+    font-size: 20pt;
+    line-height: 60px;
+    background-color: #000;
+    height: 60px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    
+}
+.media{
+    text-align: center;
+    background-color: #ffcc99;
+    width: 200px;
+}
+.media img{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+}
+.media  h1{
+    text-decoration: dashed;
+    text-align: center;
+
+}
+.media .div{
+    
+    font-size: 20pt;
+    line-height: 60px;
+    background-color: #000;
+    height: 60px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    
+}
+.grave{
+    width: 200px;
+    text-align: center;
+    background-color: #ff7c80;
+}
+.grave img{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+}
+.grave h1{
+    text-decoration: dashed;
+    text-align: center;
+}
+.grave .div{
+   
+    font-size: 20pt;
+    line-height: 60px;
+    background-color: #000;
+    height: 60px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    
+}
+.gravissimo{
+    text-align: center;
+    background-color: #7f7f7f;
+    width: 200px;
+}
+.gravissimo img{
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    background-color: white;
+}
+.gravissimo h1{
+    text-decoration: dashed;
+    text-align: center;
+}
+.gravissimo .div{
+   
+    font-size: 20pt;
+    line-height: 60px;
+    background-color: #000;
+    height: 60px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    
+}
